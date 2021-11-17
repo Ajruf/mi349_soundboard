@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Soundboard</title>
+</head>
+<body>
+    <section id="soundboard">
+        <h1>Car Noise Soundboard</h1>
+        <div class="buttons">
+        <div class="button1">    
+            <button id="button1">
+                <img id="crashimage" src="crashimage.png" alt="crash image">
+                Crash
+            </button>
+        </div>
+        <div class="button2">
+            <button id="button2">
+                <img id="skidimage" src="skidimage.png" alt="skid image">
+                Skid
+            </button>
+        </div>
+        <div class="button3">
+            <button id="button3">
+                <img id="screechimage" src="screechimage.png" alt="screech image">
+                Screech
+            </button>
+        </div>
+    </div>
+    </section>
+    <audio id="carcrash2">
+        <source src="car_crash2.wav" type="audio/mp3">
+    </audio>
+    <audio id="carscreech">
+        <source src="car_skid.wav" type="audio/mp3">
+    </audio>
+    <audio id="carskid">
+        <source src="car_screech.wav" type="audio/mp3">
+    </audio>
+    <audio id="hover_fx">
+        <source src="click.wav" type="audio/mp3">
+    </audio>
+    <script src="soundboard.js"></script>
+</body>
+</html>
